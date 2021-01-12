@@ -34,7 +34,7 @@ It is a Spring Boot application that provides two endpoints for spawning heavy a
 **Follow these steps to find out which application / thread / java function is utilizing the CPU most causing it to max out and go 100%**
 <img src="img/CPU_at_almost_full_cap.png" width="750">
 
-1. Go to jvisualvm, and open the stats for our application
+1. Go to jvisualvm, and open the stats for our application. **Check for the name of your application(full qualified name)** in the list in left hand panel, in this example , it is **"com.demo.threaddemo.ThreadDemoApplication"**. Double-click on the name to open the stats for this appkication.
 
 2. Click on "Monitor" tab to see various JVM related stats
 <img src="img/monitor.png" width="750">
